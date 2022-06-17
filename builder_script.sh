@@ -2,7 +2,7 @@
 
 if ([ $# == 1 ] && [ $1 == '-h' -o $1 == '--help' ]); then
 	echo "USAGE:";
-	echo "install_script.sh [INSTALL_PYTHON: (OFF)/ON] [OPENCV_VERSION: 4.0.1]";
+	echo "builder_script.sh [INSTALL_PYTHON: (OFF)/ON] [OPENCV_VERSION: 4.0.1]";
 	echo -e "\nN.B.: This script was only tested with opencv 4.0.1"
 	exit 0;
 fi
